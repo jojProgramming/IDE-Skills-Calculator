@@ -1,0 +1,9 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="IDE-Skills-Calculator" type="Application" factoryName="Application">
+    <option name="MAIN_CLASS_NAME" value="Calculator" />
+    <module name="IDE-Skills-Calculator" />
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
