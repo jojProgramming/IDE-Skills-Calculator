@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Calculator {
     public static void main(String[] args)
     {
-        //<editor-fold desc="Initialisation">
+        //<editor-fold desc="Initialisation" defaultstate="collapsed">
         Scanner stdinScanner = new Scanner(System.in);
         double buffer = 0;
         //</editor-fold>
@@ -11,7 +11,7 @@ public class Calculator {
         boolean doContinue = true;
         while (doContinue)
         {
-            //<editor-fold desc="Ask the user for input">
+            //<editor-fold desc="Ask the user for input" defaultstate="collapsed">
             System.out.println("The current value held by the calculator is: " + buffer);
             System.out.println();
             System.out.println("What operation do you want to perform?");
