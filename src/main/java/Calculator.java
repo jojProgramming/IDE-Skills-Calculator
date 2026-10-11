@@ -5,7 +5,8 @@ public class Calculator {
     {
         //<editor-fold desc="Initialisation">
         Scanner stdinScanner = new Scanner(System.in);
-        double buffer = 0;
+        Buffer buffer = new Buffer(3);
+		buffer.
         //</editor-fold>
 
         boolean doContinue = true;
@@ -71,6 +72,9 @@ public class Calculator {
 
     private static double subtract(double left, double right){
         //todo (1) Implement subtract function
+		
+		
+		
         return -1;
     }
 
@@ -79,4 +83,6 @@ public class Calculator {
     }
 
     //todo (3) Make a divide function
+	
+	
 }
