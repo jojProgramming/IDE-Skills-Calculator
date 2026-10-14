@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Calculator {
     public static void main(String[] args)
     {
-        //<editor-fold desc="Initialisation">
+        //<editor-fold desc="Initialisation" defaultstate="collapsed">
         Scanner stdinScanner = new Scanner(System.in);
         Buffer buffer = new Buffer(3);
         //</editor-fold>
@@ -14,6 +14,7 @@ public class Calculator {
             //<editor-fold desc="Ask the user for input" defaultstate="collapsed">
             System.out.println("The buffer currently contains: " + buffer.getValue());
             System.out.println();
+			//</editor-fold>
 
 			//<editor-fold desc="Handle the mode type selection" defaultstate="collapsed">
 			System.out.println("Please select an operation type:");
@@ -96,11 +97,8 @@ public class Calculator {
 				}
 			}
 			//</editor-fold>
-			//</editor-fold>
 
-			// todo ASHLEY please add functions here that allow use of Multicarat, Viewing Documentation, Control Click to view code source
-			// todo ASHLEY note we are now using the Buffer object which is manipulated DIRECTLY by the 
-			//  SimpleMathematics class
+
 			
 			// Compute the simple operations
 			if (simple){
@@ -111,13 +109,13 @@ public class Calculator {
 					SimpleMathematics.add(buffer, operand);
 				}
 				else if (choice == 3){ // Subtract from value
-					//todo ASHLEY decide to add the code or leave a todo for students
+					// TODO
 				}
 				else if (choice == 4){ // Multiply by value
-//todo ASHLEY decide to add the code or leave a todo for students
+					// TODO
 				}
 				else if (choice == 5){ // Divide by value
-//todo ASHLEY decide to add the code or leave a todo for students
+					// TODO
 				}
 				else{ // If there's a failure
 					System.out.println("That is not a valid input!");
@@ -126,16 +124,18 @@ public class Calculator {
 			// Handle the complex operations
 			else {
 				if (choice == 1){ // Logarithm, using the buffer as a base.
-//todo ASHLEY decide to add the code or leave a todo for students
+					// Try using Ctrl+Q to read the documentation of the function
+					// You can also press Ctrl+Shift+A to search for actions
+					AdvancedMathematics.log(buffer, buffer.getValue(), operand);
 				}
 				else if (choice == 2){ // Logarithm, using the operand as a base.
-//todo ASHLEY decide to add the code or leave a todo for students
+					// TODO: As above, but this time, the operand will be the base rather than the buffer.
 				}
 				else if (choice == 3){ // Exponent, using the buffer as a base.
-//todo ASHLEY decide to add the code or leave a todo for students
+					// TODO
 				}
 				else if (choice == 4){ // Exponent, using the operand as a base.
-//todo ASHLEY decide to add the code or leave a todo for students
+					// TODO
 				}
 				else{ // If there's a failure
 					System.out.println("That is not a valid input!");
