@@ -5,7 +5,7 @@ public class Calculator {
     {
         //<editor-fold desc="Initialisation" defaultstate="collapsed">
         Scanner stdinScanner = new Scanner(System.in);
-        Buffer buffer = new Buffer(3);
+        Buffer buffer = new Buffer(0);
         //</editor-fold>
 
         boolean doContinue = true;
