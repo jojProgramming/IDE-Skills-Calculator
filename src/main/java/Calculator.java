@@ -52,7 +52,7 @@ public class Calculator {
 
 			int choice = -1;
 			double operand = 0;
-			
+
 			//<editor-fold desc="Handle the simple calculator functions" defaultstate="collapsed">
 			if (simple) {
 				System.out.println("What operation do you want to perform?");
@@ -99,8 +99,8 @@ public class Calculator {
 			}
 			//</editor-fold>
 
+			// todo ASHLEY please add functions here that allow use of Multicarat, Viewing Documentation, Control Click to view code source
 
-			
 			// Compute the simple operations
 			if (simple){
 				if (choice == 1){ // Set value

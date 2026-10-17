@@ -24,18 +24,13 @@ public final class AdvancedMathematics {
         // </editor-fold>
     }
 
-    /// Take the base `base` logarithm of `operand`, and place the result into `buffer`.
+    /// Calculates `base` to the power of `power`, and store it in `buffer`
     ///
     /// @param buffer The buffer in which the result will be stored
-    /// @param base The base of the log function
-    /// @param operand The operand to the log function
-    public static void exponent(Buffer buffer, double base, double operand) {
-        // TODO: Implement this function
-        // HINT: Use the change of base log formula.
-        // <editor-fold desc="If you're looking for an extra challenge, try implementing it yourself, otherwise just expand this to see a working implementation." defaultState="collapsed">
-        // Using the change of base formula, log_b(a) is the same as log(a) / log(b):
-        // double result = Math.pow(base, operand);
-        // buffer.setValue(result);
-        // </editor-fold>
+    /// @param base The base
+    /// @param power The power
+    public static void exponent(Buffer buffer, double base, double power) {
+         double result = Math.pow(base, power);
+         buffer.setValue(result);
     }
 }
