@@ -27,7 +27,8 @@ public class Calculator {
 			try {
 				int innerChoice = stdinScanner.nextInt();
 
-				if (innerChoice == 1) { 
+                //noinspection StatementWithEmptyBody
+                if (innerChoice == 1) {
 					// Do nothing - Simple is already true
 				}
 				else if (innerChoice == 2) {
