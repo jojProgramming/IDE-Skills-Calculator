@@ -16,12 +16,16 @@ public class Calculator {
             System.out.println();
 			//</editor-fold>
 
-			//<editor-fold desc="Handle the mode type selection" defaultstate="collapsed">
 			System.out.println("Please select an operation type:");
-			System.out.println(" 1 - Simple Operations");
-			System.out.println(" 2 - Advanced Operations");
-			System.out.println(" 3 - Quit");
-			
+			// TODO: try using multi-caret to make the output look like this:
+			//  1 - Simple Operations
+			//  2 - Advanced Operations
+			//  3 - Quit
+			System.out.println("1:Simple Operations");
+			System.out.println("2:Advanced Operations");
+			System.out.println("3:Quit");
+
+			//<editor-fold desc="Handle the mode type selection" defaultstate="collapsed">
 			boolean simple = true;
 			
 			try {
@@ -98,8 +102,6 @@ public class Calculator {
 				}
 			}
 			//</editor-fold>
-
-			// todo ASHLEY please add functions here that allow use of Multicarat, Viewing Documentation, Control Click to view code source
 
 			// Compute the simple operations
 			if (simple){
