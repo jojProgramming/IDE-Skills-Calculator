@@ -17,7 +17,7 @@ public final class AdvancedMathematics {
     public static void log(Buffer buffer, double base, double operand) {
         // TODO: Implement this function
         // HINT: Use the change of base log formula.
-        // <editor-fold desc="If you're looking for an extra challenge, try implementing it yourself, otherwise just expand this to see a working implementation." defaultState="collapsed">
+        // <editor-fold desc="If you're looking for an extra challenge, try implementing it yourself, otherwise just expand this to see a working implementation." default-state="collapsed">
         // Using the change of base formula, log_b(a) is the same as log(a) / log(b):
         // double result = Math.log(operand) / Math.log(base);
         // buffer.setValue(result);

@@ -1,4 +1,4 @@
-//  <editor-fold defaultstate="collapsed" desc="Do not read the code - use the Documentation Function.">
+//  <editor-fold default-state="collapsed" desc="Do not read the code - use the Documentation Function.">
 /**
  * This class provides an object buffer holding a double.
  */

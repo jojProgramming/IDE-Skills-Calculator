@@ -3,7 +3,7 @@ import java.util.Scanner;
 public class Calculator {
     public static void main(String[] args)
     {
-        //<editor-fold desc="Initialisation" defaultstate="collapsed">
+        //<editor-fold desc="Initialisation" default-state="collapsed">
         Scanner stdinScanner = new Scanner(System.in);
         Buffer buffer = new Buffer(0);
         //</editor-fold>
@@ -11,12 +11,12 @@ public class Calculator {
         boolean doContinue = true;
         while (doContinue)
         {
-            //<editor-fold desc="Ask the user for input" defaultstate="collapsed">
+            //<editor-fold desc="Ask the user for input" default-state="collapsed">
             System.out.println("The buffer currently contains: " + buffer.getValue());
             System.out.println();
 			//</editor-fold>
 
-			//<editor-fold desc="Handle the mode type selection" defaultstate="collapsed">
+			//<editor-fold desc="Handle the mode type selection" default-state="collapsed">
 			System.out.println("Please select an operation type:");
 			System.out.println(" 1 - Simple Operations");
 			System.out.println(" 2 - Advanced Operations");
@@ -53,7 +53,7 @@ public class Calculator {
 			int choice = -1;
 			double operand = 0;
 
-			//<editor-fold desc="Handle the simple calculator functions" defaultstate="collapsed">
+			//<editor-fold desc="Handle the simple calculator functions" default-state="collapsed">
 			if (simple) {
 				System.out.println("What operation do you want to perform?");
 				System.out.println(" 1 - Set value");
@@ -76,7 +76,7 @@ public class Calculator {
 			}
             //</editor-fold>
 
-			//<editor-fold desc="Handle the advanced calculator functions" defaultstate="collapsed">
+			//<editor-fold desc="Handle the advanced calculator functions" default-state="collapsed">
 			if (!simple) {
 				System.out.println("What operation do you want to perform?");
 				System.out.println(" 1 - Logarithm, using the buffer as a base.");
