@@ -5,7 +5,7 @@
  * Within the class, you'll still find the documentation tool useful to examine the use of Buffer and its methods.
  */
 public class SimpleMathematics {
-	//<editor-fold default-state="collapsed" desc="You don't need to understand the code within this collapsed section for the workshop.">
+	//<editor-fold defaultstate="collapsed" desc="You don't need to understand the code within this collapsed section for the workshop.">
 	
 	private SimpleMathematics()
 	{
