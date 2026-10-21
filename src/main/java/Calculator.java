@@ -87,7 +87,7 @@ public class Calculator {
 				try {
 					choice = stdinScanner.nextInt();
 
-					if (0 < choice && choice < 4) {
+					if (0 < choice && choice < 5) {
 						System.out.println("Please enter a value: ");
 						operand = stdinScanner.nextDouble();
 					}
